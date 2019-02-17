@@ -1,0 +1,19 @@
+{
+  "name": "demo-generator",
+  "version": "1.0.0",
+  "bin": "index.js",
+  "pkg": {
+    "targets": [
+      "node8-macos",
+      "node8-linux",
+      "node8-win"
+    ]
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^6.2.2"
+  }
+}
